@@ -41,141 +41,137 @@ export const homeAbout = [
       title: "COURSES",
     },
   ]
-  export const ServicesCard = [
+  
+  export const servicesCard = [
     {
       id: 1,
-      cover: "../images/courses/c1.png",
+      cover: "/courses/img.png", // Example path for service image
       ServicesName: "Create your free account",
-      desc: 'All you need is your email address to create an account and start building your job post.',
-      
+      desc: "All you need is your email address to create an account and start building your job post.",
     },
     {
       id: 2,
-      cover: "../images/courses/c2.png",
-      coursesName: "Build your CV",
-      desc:'Then just add a title, description, and location to your job post, and you re ready to go.',
-      
+      cover: "/courses/c1.png",
+      ServicesName: "Build your 3D CV",
+      desc: "Then just add a title, description, and location to your job post, and you re ready to go.",
     },
     {
       id: 3,
-      cover: "../images/courses/c3.png",
-      coursesName: "Search your job",
-      desc:"After you post your job use our state of the art tools to help you find dream talent.",
-      
-      
+      cover: "/courses/c2.png",
+      ServicesName: "Search your job",
+      desc: "After you post your job use our state of the art tools to help you find dream talent.",
     },
     {
       id: 4,
-      cover: "../images/courses/c4.png",
-      coursesName: "Introducing to Programming with WordPress",
-      desc:""
-        
+      cover: "/courses/c3.jpg",
+      ServicesName: "Career Advice",
+      desc: "Unlock your full potential with personalized career advice tailored to your unique goals. Our expert guidance will help you navigate your career path with confidence.",
     },
     {
       id: 5,
-      cover: "../images/courses/c5.png",
-      coursesName: "Introducing to Programming with ReactJS",
-      desc:""
+      cover: "/courses/c4.png",
+      ServicesName: "Company Profile",
+      desc: "",
     },
     {
       id: 6,
-      cover: "../images/courses/c6.png",
-      coursesName: "Learn Frontend Programming Language",
-      desc:""
+      cover: "/courses/c5.png",
+      ServicesName: "Offer Acceptance Calculator",
+      desc: "",
     },
     {
       id: 7,
-      cover: "../images/courses/c7.png",
-      coursesName: "Introducing to with HTML / CSS",
-      desc:""
+      cover: "/courses/c6.jpg",
+      ServicesName: "Career Focused Programs",
+      desc: "",
     },
     {
       id: 8,
-      cover: "../images/courses/c8.png",
-      coursesName: "Introducing to with JAVA",
-      desc:""
+      cover: "../images/services/s8.png",
+      ServicesName: "",
+      desc: "",
     },
     {
       id: 9,
-      cover: "../images/courses/c9.png",
-      coursesName: "Introducing to with HTML / CSS / JAVASCRIPT",
-      desc:""
+      cover: "../images/services/s9.png",
+      ServicesName: "",
+      desc: "",
     },
-  ]
-  export const online = [
-    {
-      cover: "./images/courses/online/o1.png",
-      hoverCover: "./images/courses/online/o1.1.png",
-      courseName: "UI/UX Design Courses",
-      course: "25 Courses",
-    },
-    {
-      cover: "./images/courses/online/o2.png",
-      hoverCover: "./images/courses/online/o2.1.png",
-      courseName: "Art & Design",
-      course: "25 Courses",
-    },
-    {
-      cover: "./images/courses/online/o3.png",
-      hoverCover: "./images/courses/online/o3.1.png",
-      courseName: "Computer Science",
-      course: "10 Courses",
-    },
-    {
-      cover: "./images/courses/online/o4.png",
-      hoverCover: "./images/courses/online/o4.1.png",
-      courseName: "History & Archeologic",
-      course: "15 Courses",
-    },
-    {
-      cover: "./images/courses/online/o5.png",
-      hoverCover: "./images/courses/online/o5.1.png",
-      courseName: "Software Engineering",
-      course: "30 Courses",
-    },
-    {
-      cover: "./images/courses/online/o6.png",
-      hoverCover: "./images/courses/online/o6.1.png",
-      courseName: "Information Software",
-      course: "60 Courses",
-    },
-    {
-      cover: "./images/courses/online/o7.png",
-      hoverCover: "./images/courses/online/o7.1.png",
-      courseName: "Health & Fitness",
-      course: "10 Courses",
-    },
-    {
-      cover: "./courses/online/o8.png",
-      hoverCover: "./courses/online/o8.1.png",
-      courseName: "Marketing",
-      course: "30 Courses",
-    },
-    {
-      cover: "./courses/online/o9.png",
-      hoverCover: "/courses/online/o9.1.png",
-      courseName: "Graphic Design",
-      course: "80 Courses",
-    },
-    {
-      cover: "./courses/online/o10.png",
-      hoverCover: "./images/courses/online/o10.1.png",
-      courseName: "Music",
-      course: "120 Courses",
-    },
-    {
-      cover: "./images/courses/online/o11.png",
-      hoverCover: "./images/courses/online/o11.1.png",
-      courseName: "Business Administration",
-      course: "17 Courses",
-    },
-    {
-      cover: "./images/courses/online/o12.png",
-      hoverCover: "./images/courses/online/o12.1.png",
-      courseName: "Web Management",
-      course: "17 Courses",
-    },
-  ]
+  ];
+  // export const online = [
+  //   {
+  //     cover: "./images/courses/online/o1.png",
+  //     hoverCover: "./images/courses/online/o1.1.png",
+  //     courseName: "UI/UX Design Courses",
+  //     course: "25 Courses",
+  //   },
+  //   {
+  //     cover: "./images/courses/online/o2.png",
+  //     hoverCover: "./images/courses/online/o2.1.png",
+  //     courseName: "Art & Design",
+  //     course: "25 Courses",
+  //   },
+  //   {
+  //     cover: "./images/courses/online/o3.png",
+  //     hoverCover: "./images/courses/online/o3.1.png",
+  //     courseName: "Computer Science",
+  //     course: "10 Courses",
+  //   },
+  //   {
+  //     cover: "./images/courses/online/o4.png",
+  //     hoverCover: "./images/courses/online/o4.1.png",
+  //     courseName: "History & Archeologic",
+  //     course: "15 Courses",
+  //   },
+  //   {
+  //     cover: "./images/courses/online/o5.png",
+  //     hoverCover: "./images/courses/online/o5.1.png",
+  //     courseName: "Software Engineering",
+  //     course: "30 Courses",
+  //   },
+  //   {
+  //     cover: "./images/courses/online/o6.png",
+  //     hoverCover: "./images/courses/online/o6.1.png",
+  //     courseName: "Information Software",
+  //     course: "60 Courses",
+  //   },
+  //   {
+  //     cover: "./images/courses/online/o7.png",
+  //     hoverCover: "./images/courses/online/o7.1.png",
+  //     courseName: "Health & Fitness",
+  //     course: "10 Courses",
+  //   },
+  //   {
+  //     cover: "./courses/online/o8.png",
+  //     hoverCover: "./courses/online/o8.1.png",
+  //     courseName: "Marketing",
+  //     course: "30 Courses",
+  //   },
+  //   {
+  //     cover: "./courses/online/o9.png",
+  //     hoverCover: "/courses/online/o9.1.png",
+  //     courseName: "Graphic Design",
+  //     course: "80 Courses",
+  //   },
+  //   {
+  //     cover: "./courses/online/o10.png",
+  //     hoverCover: "./images/courses/online/o10.1.png",
+  //     courseName: "Music",
+  //     course: "120 Courses",
+  //   },
+  //   {
+  //     cover: "./images/courses/online/o11.png",
+  //     hoverCover: "./images/courses/online/o11.1.png",
+  //     courseName: "Business Administration",
+  //     course: "17 Courses",
+  //   },
+  //   {
+  //     cover: "./images/courses/online/o12.png",
+  //     hoverCover: "./images/courses/online/o12.1.png",
+  //     courseName: "Web Management",
+  //     course: "17 Courses",
+  //   },
+  // ]
   export const team = [
     {
       cover: "./images/team/t1.webp",
@@ -322,26 +318,26 @@ export const homeAbout = [
       cover: "../images/blog/b6.webp",
     },
   ]
-  export const testimonal = [
-    {
-      id: 1,
-      name: "ROGER SCOTT",
-      post: "MARKETING MANAGER",
-      desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-      cover: "./images/testo/t1.webp",
-    },
-    {
-      id: 2,
-      name: "ROGER SCOTT",
-      post: "MARKETING MANAGER",
-      desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-      cover: "./images/testo/t2.webp",
-    },
-    {
-      id: 3,
-      name: "ROGER SCOTT",
-      post: "MARKETING MANAGER",
-      desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-      cover: "./images/testo/t3.webp",
-    },
-  ]
+  // export const testimonal = [
+  //   {
+  //     id: 1,
+  //     name: "ROGER SCOTT",
+  //     post: "MARKETING MANAGER",
+  //     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+  //     cover: "./images/testo/t1.webp",
+  //   },
+  //   {
+  //     id: 2,
+  //     name: "ROGER SCOTT",
+  //     post: "MARKETING MANAGER",
+  //     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+  //     cover: "./images/testo/t2.webp",
+  //   },
+  //   {
+  //     id: 3,
+  //     name: "ROGER SCOTT",
+  //     post: "MARKETING MANAGER",
+  //     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+  //     cover: "./images/testo/t3.webp",
+  //   },
+  // ]
