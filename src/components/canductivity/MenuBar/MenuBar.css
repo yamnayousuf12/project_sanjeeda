@@ -1,0 +1,48 @@
+.menubar {
+    background-color: #ffffff;
+    overflow: hidden;
+    display: flex;
+    justify-content: center; /* Center the logo horizontally */
+    align-items: center; /* Align the logo vertically */
+    height: 80px; /* Set height for the menubar */
+}
+
+.logo_container {
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+}
+
+#logo {
+    width: 450px;
+    /* conductivity logo size*/
+    height: auto;
+    display: block;
+}
+
+.menubar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menubar li {
+    float: left;
+}
+
+.menubar li a {
+    display: block;
+    color: rgb(245, 245, 245);
+    text-shadow: 0 0 15px #f9fafd;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    box-shadow: 0 0 30px rgb(157, 161, 177);
+}
+
+.menubar li a:hover {
+    background-color: #111;
+}

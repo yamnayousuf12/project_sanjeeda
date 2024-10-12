@@ -1,0 +1,102 @@
+.button-section {
+    display: flex;
+    justify-content: space-around; /* Distributes space evenly between items */
+    padding: 20px 0;
+  }
+  
+  .dropdown {
+    position: relative;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 150px; /* Set a fixed width for buttons */
+    text-align: left;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .dropdown-content {
+    background-color: #f1f1f1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 150px; /* Match button width */
+    position: absolute;
+    z-index: 1;
+    margin-top: 5px;
+  }
+  
+  .dropdown-content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .dropdown-content ul li {
+    margin-bottom: 10px;
+  }
+  
+  .dropdown-content ul li a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .dropdown-content ul li a:hover {
+    text-decoration: underline;
+  }
+  .button-section {
+    display: flex;
+    justify-content: space-around; /* Distributes space evenly between items */
+    padding: 20px 0;
+  }
+  
+  .dropdown {
+    position: relative;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 150px; /* Set a fixed width for buttons */
+    text-align: left;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .dropdown-content {
+    background-color: #f1f1f1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 150px; /* Match button width */
+    position: absolute;
+    z-index: 1;
+    margin-top: 5px;
+  }
+  
+  .dropdown-content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .dropdown-content ul li {
+    margin-bottom: 10px;
+  }
+  
+  .dropdown-content ul li a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .dropdown-content ul li a:hover {
+    text-decoration: underline;
+  }

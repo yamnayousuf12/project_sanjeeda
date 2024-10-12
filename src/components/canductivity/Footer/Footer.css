@@ -1,0 +1,63 @@
+.social-icons {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    /* padding: 110; */
+  }
+  
+  .social-icons li a {
+    color:#ffffff; /* Set icon color */
+    font-size: 26px; /* Adjust icon size */
+   }
+  
+  .social-icons li a:hover {
+    color: #da2424; /* Set hover color */
+  }
+  
+  .footer{
+  background-color: rgb(164, 163, 162);
+  font: Arial;
+  text-align:  center;
+  padding: 20px 0;
+  }
+  
+  .footer-lines{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+     /* width: 30%; */
+    margin:  90px auto;
+  }
+  
+  .line-before,
+  .line-after {
+    flex: auto;
+    height: 1px;
+    background-color: #ffffff;
+    margin: 30px  150px 50px;
+    padding: 0 10px;
+     /* text-decoration: none; */
+   }
+  
+  /* Position/Display Of Links */
+  .footer-links {
+    /* margin-right: 20px; */
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+   }
+  
+  /* Footer's Links (pages) About, Team, Terms & Conditions,Contact */
+  .footer-links a {
+    color: #030303;
+    font-family: Arial;
+    font-size: 14px;
+  }
+  
+  /* cursor  color changes of Links About, Terms & Conditions, Contact etc */
+  .footer-links a:hover {
+    color: #da2424;
+  }
+  
+   
